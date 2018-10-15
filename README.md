@@ -1,4 +1,4 @@
-# Web-design---lab1.1
+# Web-design---lab1
 Варiант №24
 
 Сайт про програмний
