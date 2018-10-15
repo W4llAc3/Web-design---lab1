@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  min-height: 600px;
+  margin: auto;
+  position: relative;
+}
+
+.column {
+  min-height: 600px;
+}
+
+.menu {
+  height: auto;
+  background-color: lavender;
+  float: left;
+  width: 17%;
+}
+
+.menu ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.menu ul li {
+  margin: 7% 0;
+}
+
+.menu ul li a {
+  line-height: 3em;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.menu ul li a:hover, .menu ul li a:active {
+  color: #1976D2;
+}
+
+.content {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 83%;
+}
+
+.header {
+  height: 70px;
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  background-color: #1976D2;
+  line-height: 1.4em;
+}
+
+.header > a {
+ text-decoration: none;
+ color: white;
+}
+
+.info {
+  border: 1px solid #BDBDBD;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 10px 0 10px 10px;
+  overflow: auto;
+}
+
+.info > a {
+  text-decoration: none;
+}
+
+.image {
+  margin: 0 10px 0 0;
+  float: left;
+}
+
+.info > a {
+  color: black;
+}
+
+.info > a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.menu > a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.additional {
+  border: 1px solid #BDBDBD;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 10px 0 10px 10px;
+}
+
+.footer {
+  height: 50px;
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 83%;
+  color: white;
+  background-color: #1976D2;
+  padding: 2px 10px 0 0;
+}
+
+.product-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.about {
+  border: 1px solid #BDBDBD;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 10px 0 10px 10px;
+}
+
+h1, h2, h4 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.feedback {
+  padding: 10px;
+}
+
+.respond {
+  padding: 100px;
+}
+
+
+.clearfix {
+  overflow: auto;
+}
+
+
+.container::after {
+  height: 50px;
+}
+
+.active {
+  background-color: #00E5FF;
+  color: white;
+}
