@@ -1,0 +1,100 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  max-width: 1000px;
+  min-height: 600px;
+  margin: auto;
+}
+
+.menu {
+  background: lavender;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a {
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  margin: 7% 0;
+}
+
+.header {
+  height: 70px;
+  text-align: center;
+  font-size: 3em;
+  background-color: #1976D2;
+  line-height: 1.4em;
+}
+
+.header > a {
+ text-decoration: none;
+ color: white;
+}
+
+.content {
+  margin: 0;
+  padding: 0;
+}
+
+.info {
+  border: 1px solid #BDBDBD;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 10px 0 10px 10px;
+}
+
+.image {
+  margin: 0 10px 0 0;
+}
+
+.info > a {
+  color: black;
+}
+
+.info > a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.additional {
+  border: 1px solid #BDBDBD;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 10px 0 10px 10px;
+}
+
+.footer {
+  height: 50px;
+  text-align: right;
+  color: white;
+  background-color: #1976D2;
+  padding: 2px 10px 0 0;
+}
+
+.about {
+  border: 1px solid #BDBDBD;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 10px 0 10px 10px;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+.feedback {
+  padding: 10px;
+}
+
+.respond {
+  padding: 100px;
+}
+
+.active {
+  background-color: #00E5FF;
+  color: white;
+}
